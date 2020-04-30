@@ -41,7 +41,6 @@ function RenderComments({ comments }) {
   }
   return <div></div>;
 }
-
 function CampsiteInfo(props) {
   if (props.campsite) {
     return (
@@ -52,9 +51,8 @@ function CampsiteInfo(props) {
         </div>
       </div>
     );
-  } else {
-    return <div></div>;
   }
+  return <div />;
 }
 
 export default CampsiteInfo;
